@@ -14,7 +14,8 @@ void print_Array(int A[], int size) {
 void bubble_sort(int A[], int size) {
     for (int i = 0; i < (size - 1); ++i) {
         for (int j = size; j > i; --j) {
-            if (A[j - 1] > A[j]) { // compare two adjacent elements
+            // compare two adjacent elements
+            if (A[j - 1] > A[j]) {
                 // swapping elements if elements are not in the right order
                 swap(A[j - 1], A[j]);
             }
