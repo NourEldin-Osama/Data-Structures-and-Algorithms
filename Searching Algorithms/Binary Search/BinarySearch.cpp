@@ -32,7 +32,7 @@ int main() {
     }
     cout << "Please enter the number you want to search for";
     cin >> n;
-    int index = binarySearch(array, n, 0, SIZE);
+    int index = binarySearch(array, n, 0, SIZE-1);
     if (index != -1) {
         cout << "the Elements is in index: " << index << endl;
     } else {
